@@ -2,6 +2,8 @@
 
 ## Requirements
 
+All commands assume you are using Ubuntu 14.04.
+
 ### PureData
 ```bash
 sudo apt-get install puredata
@@ -15,5 +17,4 @@ sudo apt-get install csound
 ### Jack
 ```bash
 sudo apt-get install jack
-sudo apt-get install jackctl
 ```
