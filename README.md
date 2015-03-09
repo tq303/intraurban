@@ -11,3 +11,9 @@ sudo apt-get install puredata
 ```bash
 sudo apt-get install csound
 ```
+
+### Jack
+```bash
+sudo apt-get install jack
+sudo apt-get install jackctl
+```

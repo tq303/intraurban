@@ -1,0 +1,1911 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Get",
+				"GetDefaultDoorCount"
+			],
+			[
+				"reload",
+				"reloadOrders"
+			],
+			[
+				"model",
+				"modelFor"
+			],
+			[
+				"pre",
+				"price_response"
+			],
+			[
+				"order",
+				"orders"
+			],
+			[
+				"ord",
+				"orders"
+			],
+			[
+				"angle_",
+				"angle_left"
+			],
+			[
+				"border_",
+				"border_present"
+			],
+			[
+				"side",
+				"sidebar_frame"
+			],
+			[
+				"action",
+				"actions_hash"
+			],
+			[
+				"border",
+				"border_shape"
+			],
+			[
+				"sea",
+				"searchString"
+			],
+			[
+				"updatE_",
+				"update_door_count"
+			],
+			[
+				"update",
+				"update_prebuilt_right"
+			],
+			[
+				"back",
+				"back_side_panel"
+			],
+			[
+				"conto",
+				"controller"
+			],
+			[
+				"pro",
+				"property"
+			],
+			[
+				"deg",
+				"designMaterials"
+			],
+			[
+				"interior",
+				"interioreditor"
+			],
+			[
+				"lang",
+				"language"
+			],
+			[
+				"lan",
+				"language"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"langage",
+				"language"
+			],
+			[
+				"langag",
+				"language"
+			],
+			[
+				"pos",
+				"po_json"
+			],
+			[
+				"la",
+				"languages"
+			],
+			[
+				"lag",
+				"language"
+			],
+			[
+				"language",
+				"language"
+			],
+			[
+				"langu",
+				"language"
+			],
+			[
+				"error",
+				"errors"
+			],
+			[
+				"th",
+				"thead	Tag"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"box-s",
+				"box-shadow"
+			],
+			[
+				"did",
+				"didInsertElement"
+			],
+			[
+				"margint",
+				"margin-bottom"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"new",
+				"new_record"
+			],
+			[
+				"re",
+				"require"
+			],
+			[
+				"posit",
+				"position"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"err",
+				"err"
+			],
+			[
+				"erro",
+				"errors"
+			],
+			[
+				"upd",
+				"updated_member"
+			],
+			[
+				"upad",
+				"updated_member"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"posi",
+				"position"
+			],
+			[
+				"por",
+				"projects"
+			],
+			[
+				"pr",
+				"projects"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"padin",
+				"padding-bottom"
+			],
+			[
+				"mutler",
+				"multer_image"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"template",
+				"templateName"
+			],
+			[
+				"navbar",
+				"navbar-collapse"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"over-",
+				"overflow-y"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"positi",
+				"position_index"
+			],
+			[
+				"post",
+				"positions"
+			],
+			[
+				"position",
+				"positions"
+			],
+			[
+				"backgroun",
+				"background"
+			],
+			[
+				"ad",
+				"is_advisory"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"im",
+				"img	Tag"
+			],
+			[
+				"bg",
+				"bg-overlay"
+			],
+			[
+				"is",
+				"is_history"
+			],
+			[
+				"cont",
+				"content-boundary-lg"
+			],
+			[
+				"instr",
+				"instructor_map"
+			],
+			[
+				"border-ra",
+				"border-radius"
+			],
+			[
+				"lin",
+				"link-to"
+			],
+			[
+				"log",
+				"logo-front"
+			],
+			[
+				"ins",
+				"instructor_updated"
+			],
+			[
+				"sear",
+				"search-now"
+			],
+			[
+				"body",
+				"bodyelem"
+			],
+			[
+				"reviewer",
+				"reviewer_name"
+			],
+			[
+				"active",
+				"active-driver-feedback"
+			],
+			[
+				"sub",
+				"subscription"
+			],
+			[
+				"no-pa",
+				"no-padding-left"
+			],
+			[
+				"di",
+				"div	Tag"
+			],
+			[
+				"ovef",
+				"overflow-x"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"year",
+				"years_experience"
+			],
+			[
+				"ser",
+				"service"
+			],
+			[
+				"revie",
+				"review_count"
+			],
+			[
+				"land",
+				"landscape-shift"
+			],
+			[
+				"p",
+				"p	Tag"
+			],
+			[
+				"location",
+				"location"
+			],
+			[
+				"arraym",
+				"array_merge_recursive"
+			],
+			[
+				"res",
+				"response_object"
+			],
+			[
+				"rg",
+				"rgba(r,g,b,a)"
+			],
+			[
+				"contar",
+				"container-fluid"
+			],
+			[
+				"resul",
+				"results"
+			],
+			[
+				"da",
+				"dayIPassed"
+			],
+			[
+				"result",
+				"result_location"
+			],
+			[
+				"bind",
+				"bindSelection"
+			],
+			[
+				"prt",
+				"prototype"
+			],
+			[
+				"option",
+				"options"
+			],
+			[
+				"templ",
+				"template"
+			],
+			[
+				"get",
+				"getResults"
+			],
+			[
+				"pt",
+				"prototype"
+			],
+			[
+				"uplo",
+				"upload-modal"
+			],
+			[
+				"show",
+				"show-modal"
+			],
+			[
+				"The",
+				"TheDayIPassed"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"T",
+				"TheDayIPassed"
+			],
+			[
+				"open",
+				"open-speech-mark"
+			],
+			[
+				"for",
+				"form	Tag"
+			],
+			[
+				"view",
+				"view-student"
+			],
+			[
+				"over",
+				"overlay"
+			],
+			[
+				"ret",
+				"relative"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"control",
+				"control-bar"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"video",
+				"video_files"
+			],
+			[
+				"p_",
+				"p_x_offset"
+			],
+			[
+				"stroe",
+				"stroke	stroke rgb"
+			],
+			[
+				"segm",
+				"segment_height"
+			],
+			[
+				"stor",
+				"stroke	stroke rgb"
+			],
+			[
+				"dir",
+				"direction"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/oliver/projects/intraurban/intraurban/js/pd.spawn.js",
+			"settings":
+			{
+				"buffer_size": 4368,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/oliver/projects/intraurban/plan/intraurban",
+			"settings":
+			{
+				"buffer_size": 4704,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/oliver/projects/intraurban/intraurban/README.md",
+			"settings":
+			{
+				"buffer_size": 138,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Processing/Processing.sublime-build",
+	"command_palette":
+	{
+		"height": 368.0,
+		"selected_items":
+		[
+			[
+				"mark",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"ma",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mar",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"sxjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instalp",
+				"Package Control: Install Package"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"mra",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mark	",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"wow",
+				"Word Wrap: Toggle"
+			],
+			[
+				"LOEW",
+				"Convert Case: Lower Case"
+			],
+			[
+				"lo",
+				"Convert Case: Lower Case"
+			],
+			[
+				"upp",
+				"Convert Case: Upper Case"
+			],
+			[
+				"sxha",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"sxhan",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"sx",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"sxh",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"sxjv",
+				"Set Syntax: Java"
+			],
+			[
+				"sxja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sxemb",
+				"Set Syntax: EmberScript"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"sxbash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"sxbas",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"sxpr",
+				"Set Syntax: Processing"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"sxhtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"inre",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"LOWER",
+				"Convert Case: Lower Case"
+			],
+			[
+				"convt",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"sx ph",
+				"Set Syntax: PHP"
+			],
+			[
+				"convtb",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"cont",
+				"Convert Case: Title Case"
+			],
+			[
+				"rin",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"r",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"conv",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"convert",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"sxph",
+				"Set Syntax: PHP"
+			],
+			[
+				"convertab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"reint",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"sxphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"sxhp",
+				"Set Syntax: PHP"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"jsc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sxj",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"t",
+				"Convert Case: Title Case"
+			],
+			[
+				"title",
+				"Convert Case: Title Case"
+			],
+			[
+				"loewr",
+				"Convert Case: Lower Case"
+			],
+			[
+				"lowe",
+				"Convert Case: Lower Case"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"handl",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"han",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"up",
+				"Convert Case: Upper Case"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"sxjac",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sxco",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"packare",
+				"Package Control: Remove Package"
+			],
+			[
+				"packre",
+				"Package Control: Remove Package"
+			],
+			[
+				"sxcof",
+				"Set Syntax: CoffeeScript (Literate)"
+			],
+			[
+				"sx co",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"sx coffe",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"sxjav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"remo e",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 561.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/oliver/projects/intraurban",
+		"/home/oliver/projects/intraurban/intraurban/js"
+	],
+	"file_history":
+	[
+		"/home/oliver/projects/intraurban/csound/run.sh",
+		"/home/oliver/projects/intraurban/puredata/install",
+		"/home/oliver/projects/intraurban/csound/install",
+		"/home/oliver/projects/intraurban/intraurban/server.js",
+		"/home/oliver/projects/intraurban/csound/Live_Delay_Feedback.csd",
+		"/home/oliver/projects/intraurban/csound/run_csound.sh",
+		"/home/oliver/projects/intraurban/intraurban/node_modules/port/port.js",
+		"/var/www/html/socialscoop/data/products",
+		"/home/oliver/work/code/slideco-api/pricecalc.js",
+		"/home/oliver/work/code/slideco-api/models/orders.js",
+		"/home/oliver/Downloads/default.csv",
+		"/home/oliver/Downloads/text.csv",
+		"/home/oliver/Downloads/fd(2)",
+		"/home/oliver/Downloads/fd(1)",
+		"/home/oliver/Downloads/fd",
+		"/home/oliver/Downloads/fd(4)",
+		"/home/oliver/Downloads/fd(3)",
+		"/home/oliver/Downloads/en_GB.po",
+		"/home/oliver/work/code/slideco-svn/trunk/webapp/app/js/WardrobeBuilder.class.js",
+		"/home/oliver/work/code/slideco-svn/trunk/webapp/app/js/WardrobeSection_place_apertureActions.class.js",
+		"/home/oliver/work/code/slideco-svn/trunk/webapp/app/js/WardrobeSettings.class.js",
+		"/home/oliver/work/code/slideco-svn/trunk/manageapp/js/set_retailer.js",
+		"/home/oliver/work/code/slideco-interior-core/test/child/SetPart.coffee",
+		"/home/oliver/work/code/slideco-calculations/node_modules/browserify/test/standalone_events.js",
+		"/home/oliver/work/code/got-2-drive/dist/startingphp",
+		"/home/oliver/work/code/slideco-worker-render/node_modules/mongodb/node_modules/bson/builderror.log",
+		"/home/oliver/work/code/slideco-svn/trunk/webapp/node_modules/browserify/test/reverse_multi_bundle.js",
+		"/home/oliver/work/code/slideco-worker-bpm/lib/WorkerBPM.js",
+		"/home/oliver/work/code/slideco-worker-render/lib/WorkerRender.js",
+		"/home/oliver/work/code/slideco-api/database/wallrenderconfigs.json",
+		"/home/oliver/work/code/slideco-api/server.js",
+		"/home/oliver/work/code/slideco-api/database_changes/103_price_panel_prices_backup.js",
+		"/home/oliver/Programs/SchemaSync/schemasync/schemasync.py",
+		"/home/oliver/Programs/SchemaSync/schemasync/utils.py",
+		"/home/oliver/Programs/SchemaSync/schemasync/syncdb.py",
+		"/home/oliver/work/code/slideco-svn/trunk/webapp/app/js/WardrobeSection_sidebar_separatorsActions.class.js",
+		"/home/oliver/work/code/slideco-api/database_changes/101_complete_panel_price_reductions.js",
+		"/home/oliver/work/code/slideco-svn/trunk/webapp/app/js/WardrobeSection_sidebar_doorsActions.class.js",
+		"/home/oliver/work/code/slideco-api/config_defaults.js",
+		"/home/oliver/work/code/slideco-svn/trunk/manageapp/js/models/order.js",
+		"/home/oliver/work/code/slideco-svn/trunk/worker-email/emails/order.html",
+		"/home/oliver/work/code/slideco-api/apiv2/orders.js",
+		"/home/oliver/work/code/slideco-svn/trunk/manageapp/templates/orders_retailer_recursive.hbs",
+		"/home/oliver/work/code/fresenius-www/fonts/opensans300.woff",
+		"/home/oliver/work/code/slideco-api/models/retailer.js",
+		"/home/oliver/work/code/slideco-api/interface.js",
+		"/home/oliver/work/code/slideco-svn/trunk/scripts/install_npm.sh",
+		"/home/oliver/work/code/fresenius-www/index.html",
+		"/home/oliver/work/code/fresenius-www/node_modules/bower/node_modules/fstream/lib/proxy-reader.js",
+		"/home/oliver/work/code/slideco-svn/trunk/manageapp/templates/orders/index.hbs",
+		"/home/oliver/work/code/slideco-svn/trunk/manageapp/js/app.js",
+		"/home/oliver/work/code/slideco-svn/trunk/manageapp/js/set_order.js",
+		"/home/oliver/work/code/slideco-svn/trunk/worker-print/content/print.html",
+		"/home/oliver/work/code/slideco-svn/trunk/worker-print/worker.js",
+		"/home/oliver/work/code/slideco-svn/trunk/webapp/sections/price_breakdown.hbs",
+		"/home/oliver/work/code/slideco-svn/branches/phase2/webapp/node_modules/browserify/test/hash_instance_context.js",
+		"/home/oliver/work/code/slideco-api/database/languages.json",
+		"/home/oliver/work/code/slideco-api/database_reimport_selective.sh",
+		"/home/oliver/work/code/slideco-svn/trunk/manageapp/js/NotificationManager.js",
+		"/home/oliver/work/code/slideco-calculations/node_modules/browserify/node_modules/JSONStream/LICENSE.APACHE2",
+		"/home/oliver/work/code/slideco-api/mongoose_schemas.js",
+		"/home/oliver/work/code/slideco-api/database_changes/101_order_creator_attr.js",
+		"/home/oliver/work/code/slideco-api/apiv2/languages.js",
+		"/home/oliver/work/code/slideco-api/node_modules/mongoose/lib/schema.js",
+		"/home/oliver/work/code/slideco-interior-core/test/child/SetContentLimitations.coffee",
+		"/home/oliver/work/code/slideco-svn/trunk/webapp/app/js/WardrobeNavigator.class.js",
+		"/home/oliver/work/code/slideco-svn/trunk/webapp/app/js/WardrobeSection_sidebar_frameActions.class.js",
+		"/home/oliver/work/code/slideco-svn/trunk/webapp/sections/sidebar_materials.hbs",
+		"/home/oliver/work/code/slideco-svn/trunk/webapp/sections/sidebar_frame.hbs",
+		"/home/oliver/work/code/slideco-svn/trunk/webapp/sections/sidebar_materials_options.hbs",
+		"/home/oliver/work/code/slideco-svn/trunk/manageapp/templates/components/navigation.hbs",
+		"/home/oliver/work/code/got-2-drive/dist/includes/navbar.hbs",
+		"/home/oliver/work/code/slideco-calculations/node_modules/browserify/node_modules/events/tests/num-args.js",
+		"/home/oliver/work/code/npm-debug.log",
+		"/home/oliver/work/code/slideco-api/database_changes/100_furniture_update.js",
+		"/home/oliver/work/code/fresenius-www/bower_components/bootstrap/LICENSE",
+		"/home/oliver/work/code/slideco-svn/trunk/manageapp/templates/orders.hbs",
+		"/home/oliver/work/code/fresenius-www/package.json",
+		"/home/oliver/work/code/slideco-svn/trunk/manageapp/js/set_design_interiors.js",
+		"/home/oliver/work/code/slideco-svn/trunk/manageapp/js/set_design_extras.js",
+		"/home/oliver/work/code/slideco-svn/trunk/manageapp/js/set_design_frames.js",
+		"/home/oliver/work/code/slideco-svn/trunk/manageapp/js/set_design_profiles.js",
+		"/home/oliver/work/code/slideco-svn/trunk/manageapp/js/set_design_index.js",
+		"/home/oliver/work/code/slideco-worker-assets/do.js",
+		"/home/oliver/work/code/slideco-interior-editor/src/FloatDom.coffee",
+		"/home/oliver/work/code/slideco-svn/trunk/manageapp/templates/design/profiles.hbs",
+		"/home/oliver/work/code/slideco-svn/trunk/manageapp/js/models/language.js",
+		"/home/oliver/work/code/slideco-svn/trunk/manageapp/js/set_design_materials.js",
+		"/home/oliver/work/code/slideco-svn/trunk/manageapp/js/models/extra.js",
+		"/home/oliver/work/code/fresenius-www/src/app.em",
+		"/home/oliver/work/code/slideco-api/database_changes_old/002_adding_mfc_panel_prices.txt",
+		"/home/oliver/work/code/slideco-svn/branches/phase1/apiserver/apiv2/api_panelmaterials.js",
+		"/home/oliver/work/code/got-2-drive/dist/aboutphp",
+		"/home/oliver/work/code/slideco-svn/trunk/manageapp/js/set_design.js",
+		"/home/oliver/work/code/slideco-svn/trunk/manageapp/templates/design/interiors.hbs",
+		"/home/oliver/work/code/slideco-worker-render/assets/frames/crops.txt",
+		"/home/oliver/work/code/slideco-worker-render/assets/crops.txt",
+		"/home/oliver/work/code/slideco-worker-assets/Makefile",
+		"/home/oliver/Videos/Tron Uprising 2012 Animated Complete Series Burntodisc/D1/VIDEO_TS/VIDEO_TS.BUP",
+		"/home/oliver/work/projects/woodbourne/languages/default.po",
+		"/var/www/html/woodbourne/language/default.po",
+		"/home/oliver/work/projects/woodbourne/languages/list-all.json",
+		"/var/www/html/woodbourne/templates/about.hbs",
+		"/var/www/html/woodbourne/index.html",
+		"/var/www/html/woodbourne/templates/services.hbs",
+		"/var/www/html/woodbourne/templates/site.hbs",
+		"/var/www/html/woodbourne/templates/team.hbs",
+		"/var/www/html/woodbourne/templates/projects/index.hbs",
+		"/var/www/html/woodbourne/templates/projects.hbs",
+		"/var/www/html/woodbourne/templates/project.hbs",
+		"/var/www/html/woodbourne/templates/finance.hbs",
+		"/var/www/html/woodbourne/templates/index.hbs",
+		"/var/www/html/woodbourne/templates/contact.hbs",
+		"/var/www/html/woodbourne/less/styles.less",
+		"/var/www/html/woodbourne/language/po/es_ES.po",
+		"/var/www/html/woodbourne/settings/settings.json",
+		"/var/www/html/woodbourne/server.js",
+		"/var/www/html/woodbourne/templates/manage/languages.hbs",
+		"/var/www/html/woodbourne/js/models/language.js",
+		"/var/www/html/woodbourne/less/site.less",
+		"/var/www/html/woodbourne/less/media.less",
+		"/var/www/html/woodbourne/less/admin.less",
+		"/var/www/html/woodbourne/language/po/de_DE.po",
+		"/var/www/html/woodbourne/language/po/en_EN.po",
+		"/var/www/html/woodbourne/language/po/files[].po",
+		"/var/www/html/woodbourne/language/po/fn.po",
+		"/var/www/html/woodbourne/node_modules/po2json/README.md",
+		"/var/www/html/woodbourne/data/languages.json"
+	],
+	"find":
+	{
+		"height": 55.0
+	},
+	"find_in_files":
+	{
+		"height": 157.0,
+		"where_history":
+		[
+			"/home/oliver/work/code/slideco-api/",
+			"/home/oliver/work/code/slideco-svn/trunk/webapp/app/js",
+			"slideco-svn/trunk/manageapp/",
+			"slideco-svn/trunk/webapp/",
+			"slideco-svn/trunk/manageapp/",
+			"slideco-svn/trunk/",
+			"",
+			"/var/www/html/got-2-drive/dist/protected",
+			"/var/www/html/got-2-drive/dist",
+			"/var/www/html/got-2-drive/",
+			"/var/www/html/got-2-drive/templates",
+			"/var/www/html/got-2-drive/template",
+			"/var/www/html/got-2-drive/dist/",
+			"/var/www/html/got-2-drive/dist/protected/",
+			"/var/www/html/got-2-drive/dist/protected/extensions",
+			"dist/",
+			"dist/js/",
+			"templates/",
+			"",
+			"dist/",
+			"manageapp/",
+			"webapp/",
+			"manageapp/",
+			"webapp/",
+			"manageapp/",
+			"manageapp/templates",
+			"manageapp/",
+			"webapp/",
+			"manageapp/",
+			"",
+			"manageapp/js/",
+			"manageapp/",
+			"webapp/",
+			"manageapp/",
+			"webapp/app/js/",
+			"webapp/",
+			"manageapp/",
+			"src/",
+			"",
+			"src/",
+			"",
+			"src/",
+			"",
+			"src/",
+			"",
+			"src/",
+			"",
+			"src/",
+			"src//",
+			"",
+			"test/child/",
+			"test/Child/",
+			"test/",
+			"",
+			"src/",
+			"webapp/",
+			"",
+			"src/",
+			"",
+			"webapp/",
+			"",
+			"webapp/"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"pd",
+			"Pd",
+			"pd",
+			"connect",
+			"spawn",
+			"ShowOver_a",
+			"LiveInPreOver",
+			"ShowLED_a",
+			"i",
+			"th",
+			".psd",
+			"socialscoop-",
+			".psd",
+			"socialscoop-",
+			"h_bar",
+			"exec",
+			"GetPrintout",
+			"stream",
+			"Stream",
+			"stream",
+			"this.store.find",
+			"GetFIProfilePricing",
+			"h_sum",
+			"h_b",
+			"this.parent.settings.",
+			"mergenew",
+			"mergene",
+			"GetDefaultDoorCount",
+			"calcul",
+			"new_dimensions",
+			"dimensions_x",
+			"this.parent.settings.",
+			"parent",
+			"InitialiseInteriorDesigner",
+			"inter",
+			"-*",
+			"max_door_width",
+			"+=",
+			"fi_under",
+			".alteration",
+			"fi_over",
+			"fi_under",
+			"alter",
+			"dimensions_y",
+			"panel",
+			"'",
+			"GetPanelMaterialPrice",
+			"Finland",
+			"panelm",
+			"\"GBP\" : \"",
+			"}, \"GBP\" :",
+			"{ \"EUR\" : \"",
+			"\"_id\" : {",
+			"reading initial communication packet",
+			"app",
+			"APP",
+			"app",
+			"parse_cmd_line",
+			"APP",
+			"app",
+			"APP",
+			"App",
+			"app",
+			"APP",
+			"app",
+			"App",
+			"app",
+			"APP",
+			"app",
+			"Application",
+			"app",
+			"mysql:",
+			"parse_cmd_line",
+			"processor",
+			"fn",
+			"processor",
+			"fn",
+			"parse_args",
+			"mysq",
+			"mysqk",
+			"});",
+			"db.prices.update",
+			"db.prices.update(",
+			"\"item\" : { \"$oid\"",
+			"\"pricing\" : { \"GBP\" : [ { \"610\"",
+			"}, , \"pric",
+			"}, \"EUR\" : \"",
+			"},  \"EUR\" ",
+			" \"EUR\" ",
+			"\"GBP\" : \"610,",
+			"|1220,7142\", ",
+			" \"_id\" : { \"$oid\" :",
+			"\"pricing\"",
+			"15333",
+			"$set: { \"pricing.EUR\" : {",
+			"GBP",
+			"gbp",
+			" $set: {",
+			"\"pricing\" : {",
+			"ObjectId(\"",
+			" ",
+			"*1.2",
+			"$set: { ",
+			"fi_over",
+			".separa",
+			"door_width_range",
+			"this.door_width_range",
+			".Panels",
+			".Frames",
+			"GetConfigOptionsFromTemplate",
+			"GetSpecificConfigOption",
+			"GetConfigOptionsFromTemplate",
+			"CheckSeparatorConfigChange",
+			"SetSeparatorsConfiguration",
+			"separators.configuration",
+			"separator",
+			"separators_configuration",
+			"ToSimpleObject",
+			"ReduceSeparators",
+			"148",
+			" = ",
+			"this.defaults.panels.framed.",
+			"divisible",
+			"default",
+			"getdefault",
+			"GetConfigDefaults",
+			"defaults",
+			"Defaults"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"''",
+			"Thank you",
+			"getGoogleLatLngByLocation",
+			"local.location",
+			"getGoogleLatLngByTown",
+			"getGoogleLocationByTown",
+			"relation.",
+			"ARArrayToJSONArray",
+			"search_instructor_results",
+			"home_instructor_results",
+			"uk_overlap",
+			"fi_overlap",
+			"CheckInteriorFloatsUpdate",
+			"prebuilt-side-left",
+			"prebuilt-bottom",
+			"prebuilt-top",
+			"DropIsPermissible"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/oliver/projects/intraurban/intraurban/js/pd.spawn.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4368,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1842,
+								1842
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/oliver/projects/intraurban/plan/intraurban",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4704,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4580,
+								4580
+							]
+						],
+						"settings":
+						{
+							"parser": "github",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"target": "save",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1818.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/oliver/projects/intraurban/intraurban/README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 138,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								138,
+								138
+							]
+						],
+						"settings":
+						{
+							"parser": "github",
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"target": "save"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 116.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "intraurban.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"pac",
+				"package.json"
+			],
+			[
+				"bower",
+				"bower.json"
+			],
+			[
+				"config_defaults",
+				"slideco-api/config_defaults.js"
+			],
+			[
+				"interf",
+				"slideco-api/interface.js"
+			],
+			[
+				"price",
+				"slideco-api/pricecalc.js"
+			],
+			[
+				"pricec",
+				"slideco-api/pricecalc.js"
+			],
+			[
+				"language",
+				"slideco-api/database/languages.json"
+			],
+			[
+				"schema",
+				"slideco-api/mongoose_schemas.js"
+			],
+			[
+				"navigato",
+				"slideco-svn/trunk/webapp/app/js/WardrobeNavigator.class.js"
+			],
+			[
+				"lang",
+				"slideco-api/database/languages.json"
+			],
+			[
+				"pricecal",
+				"slideco-api/pricecalc.js"
+			],
+			[
+				"app.js",
+				"slideco-svn/trunk/manageapp/js/app.js"
+			],
+			[
+				"server",
+				"server.js"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"sty",
+				"less/styles.less"
+			],
+			[
+				"settin",
+				"settings/settings.json"
+			],
+			[
+				"site",
+				"less/site.less"
+			],
+			[
+				"styl",
+				"less/styles.less"
+			],
+			[
+				"admin",
+				"less/admin.less"
+			],
+			[
+				"media",
+				"less/media.less"
+			],
+			[
+				"sett",
+				"settings/settings.json"
+			],
+			[
+				"setting",
+				"settings/settings.json"
+			],
+			[
+				"readm",
+				"node_modules/grunt/node_modules/colors/ReadMe.md"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"languag",
+				"data/languages.json"
+			],
+			[
+				"langu",
+				"js/models/language.js"
+			],
+			[
+				"grun",
+				"Gruntfile.js"
+			],
+			[
+				"grunt",
+				"Gruntfile.js"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"styles",
+				"less/styles.less"
+			],
+			[
+				"app",
+				"js/app.js"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"medi",
+				"less/media.less"
+			],
+			[
+				"variab",
+				"less/variables.less"
+			],
+			[
+				"vari",
+				"less/variables.less"
+			],
+			[
+				"med",
+				"less/media.less"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"tema",
+				"data/team.json"
+			],
+			[
+				"sit",
+				"less/site.less"
+			],
+			[
+				"member",
+				"js/models/member.js"
+			],
+			[
+				"team",
+				"data/team.json"
+			],
+			[
+				"customfileupload",
+				"js/customFileUpload.js"
+			],
+			[
+				"layout",
+				"templates/manage/layout.hbs"
+			],
+			[
+				"stly",
+				"less/styles.less"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"meda",
+				"less/media.less"
+			],
+			[
+				"mdeia",
+				"less/media.less"
+			],
+			[
+				"varia",
+				"less/variables.less"
+			],
+			[
+				"style",
+				"less/styles.less"
+			],
+			[
+				"contact",
+				"templates/contact.hbs"
+			],
+			[
+				"about",
+				"templates/about.hbs"
+			],
+			[
+				"sitel",
+				"less/site.less"
+			],
+			[
+				"empl",
+				"src/models/employee.js"
+			],
+			[
+				"emplo",
+				"data/employees.json"
+			],
+			[
+				"var",
+				"less/variables.less"
+			],
+			[
+				"index",
+				"templates/index.hbs"
+			],
+			[
+				"project",
+				"templates/projects.hbs"
+			],
+			[
+				"projec",
+				"templates/project.hbs"
+			],
+			[
+				"finance",
+				"templates/finance.hbs"
+			],
+			[
+				"pro",
+				"templates/project.hbs"
+			],
+			[
+				"serv",
+				"src/server.js"
+			],
+			[
+				"service",
+				"templates/services.hbs"
+			],
+			[
+				"servce",
+				"templates/services.hbs"
+			],
+			[
+				"servc",
+				"templates/services.hbs"
+			],
+			[
+				"serve",
+				"src/server.js"
+			],
+			[
+				"cont",
+				"templates/contact.hbs"
+			],
+			[
+				"contac",
+				"templates/contact.hbs"
+			],
+			[
+				"instrc",
+				"dist/protected/controllers/InstructorController.php"
+			],
+			[
+				"sitecon",
+				"dist/protected/controllers/SiteController.php"
+			],
+			[
+				"g2d",
+				"dist/js/project/g2d.js"
+			],
+			[
+				"geolo",
+				"dist/js/project/geolocation.js"
+			],
+			[
+				"conf/ma",
+				"dist/protected/config/main.php"
+			],
+			[
+				"gmap",
+				"dist/js/project/gmapsBuilder.js"
+			],
+			[
+				"medl",
+				"less/media.less"
+			],
+			[
+				"instr",
+				"dist/protected/models/Instructor.php"
+			],
+			[
+				"apic",
+				"dist/protected/controllers/APIController.php"
+			],
+			[
+				"feedbackt",
+				"dist/protected/models/InstructorFeedbackThread.php"
+			],
+			[
+				"utilt",
+				"dist/protected/models/Utilities.php"
+			],
+			[
+				"apicon",
+				"dist/protected/controllers/APIController.php"
+			],
+			[
+				"sitecontr",
+				"dist/protected/controllers/SiteController.php"
+			],
+			[
+				"str",
+				"dist/protected/models/StripeBuilder.php"
+			],
+			[
+				"instrcon",
+				"dist/protected/modules/manage/controllers/InstructorController.php"
+			],
+			[
+				"instrucc",
+				"dist/protected/modules/manage/controllers/InstructorController.php"
+			],
+			[
+				"navbar",
+				"dist/protected/views/layouts/navbar_main.php"
+			],
+			[
+				"nav",
+				"dist/protected/views/layouts/navbar_general.php"
+			],
+			[
+				"instructor",
+				"dist/protected/models/Instructor.php"
+			],
+			[
+				"siteles",
+				"less/site.less"
+			],
+			[
+				"payment",
+				"dist/protected/controllers/PaymentController.php"
+			],
+			[
+				"instru",
+				"dist/protected/models/Instructor.php"
+			],
+			[
+				"navba",
+				"dist/protected/views/layouts/navbar_main.php"
+			],
+			[
+				"instrucon",
+				"dist/protected/controllers/InstructorController.php"
+			],
+			[
+				"instruct",
+				"dist/protected/models/Instructor.php"
+			],
+			[
+				"register",
+				"dist/protected/controllers/RegisterinstructorController.php"
+			],
+			[
+				"paymen",
+				"dist/protected/controllers/PaymentController.php"
+			],
+			[
+				"instruc",
+				"dist/protected/models/Instructor.php"
+			],
+			[
+				"howit",
+				"dist/protected/views/site/pages/howitworks_learner.php"
+			],
+			[
+				"regis",
+				"dist/protected/controllers/RegisterinstructorController.php"
+			],
+			[
+				"day_i_passed_results",
+				"templates/day_i_passed_results.hbs"
+			],
+			[
+				"dayipassed",
+				"dist/js/project/site/dayipassed.class.js"
+			],
+			[
+				"site.les",
+				"less/site.less"
+			],
+			[
+				"navb",
+				"dist/protected/views/layouts/navbar_main.php"
+			],
+			[
+				"main-lo",
+				"dist/protected/config/main-local.php"
+			],
+			[
+				"main",
+				"dist/protected/config/main.php"
+			],
+			[
+				"main-de",
+				"dist/protected/config/main-dev.php"
+			],
+			[
+				"email",
+				"dist/protected/models/Email.php"
+			],
+			[
+				"site.",
+				"less/site.less"
+			],
+			[
+				"config/ma",
+				"dist/protected/config/main.php"
+			],
+			[
+				"theday",
+				"dist/protected/models/TheDayIPassed.php"
+			],
+			[
+				"thedayi",
+				"dist/protected/models/TheDayIPassed.php"
+			],
+			[
+				"apc",
+				"dist/protected/extensions/stripe/lib/Stripe/ApiConnectionError.php"
+			],
+			[
+				"thedays",
+				"dist/protected/models/TheDayIPassed.php"
+			],
+			[
+				"api",
+				"dist/protected/controllers/APIController.php"
+			],
+			[
+				"day_i_passed_individual",
+				"templates/day_i_passed_individual.hbs"
+			],
+			[
+				"sitl",
+				"less/site.less"
+			],
+			[
+				"instrcontr",
+				"dist/protected/modules/manage/controllers/InstructorController.php"
+			],
+			[
+				"paycon",
+				"dist/protected/controllers/PaymentController.php"
+			],
+			[
+				"st",
+				"less/styles.less"
+			],
+			[
+				"util",
+				"dist/protected/models/Utilities.php"
+			],
+			[
+				"navbar_general",
+				"dist/protected/views/layouts/navbar_general.php"
+			],
+			[
+				"aymecon",
+				"dist/protected/controllers/PaymentController.php"
+			],
+			[
+				"paymecon",
+				"dist/protected/controllers/PaymentController.php"
+			],
+			[
+				"step2",
+				"dist/protected/views/registerinstructor/step-2.php"
+			],
+			[
+				"step1",
+				"dist/protected/views/registerinstructor/step-1.php"
+			],
+			[
+				"confi/ma",
+				"dist/protected/config/main.php"
+			],
+			[
+				"cusomf",
+				"dist/js/project/customFileUpload.js"
+			],
+			[
+				"theda",
+				"dist/protected/models/TheDayIPassed.php"
+			],
+			[
+				"conv",
+				"convertvideo"
+			],
+			[
+				"res",
+				"resizeimage"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 620.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

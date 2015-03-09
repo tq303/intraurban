@@ -1,0 +1,121 @@
+# Intraurban
+
+## Overview
+
+### Philosophy
+i have been observing techonoly and admiring some things howve there is much to be desired in the realm of collaboration. coollarborative ideas are limited in that they ususaly priorituise traying to win. there is also a distinct lack of playful ness with techonology, perferring to use serious or comedic themes.
+
+intreurban aims to be a situation in which evryone works together to inspir the central idea/sound to come forward and reward pethe contributors with more playfullness and intensity.
+
+
+### Technology
+the main goal of this project is to create an environment that can be contributed by everyone, is collaboration based and gives the possibility for the people to shape it's future. i want to build the project as a deployable package that has four simple, distinct parts to it.
+
+	audio input & streaming (real time linux, input transcoded to flac)
+	audio manipulation - most likely through javascript objects
+	stream merging and casting over websockets (this will allow for audio composition data to be sent also)
+	storage and visualisation through copying waveforms of the average notes (this is stored and uploaded by each terminal periodically)
+
+packages can be downloaded and added to new location due to the simple deployment process. because of the projects open and web based nature, this will allow for community expansion and contribution.
+
+### 
+a web of interconnected pipeline communicates audio from different locations. people work together to build a better experience following using vocal expression. voices are sampled at an interval relative to the balance of the contributions, if the vocal inputs are too loud, jagged or spike too quickly then the input will cut off and the game will cease, there will be simple led representation of this using the ws2801 protocol. once people start to collaborate the audio will cresendo and reward the contributors with more decoration of the input. as intensity increases, there is also scope for contributors to become more expressive, but not too much to disturb the flow.
+
+audio expresion is achieved thorough simple proximity of the person and the average note of their voice. the closer they are the faster the rhythm, the further away the slower. rhytmic patterns will be simple straight runs of notes and when the proximity is really close, a granular (or most likely really delayed) tonal average is output. this would mean that complex arrangements are possible with very simple tools, and it would all be in sync.
+
+
+### Team                                    
+I am already working with the following people.
+
+	jeff = modern urban materials fabricator*
+	aleks = web technology guru (senior e3creative)*
+	denis = nes - composer*
+	brooks = visual consoltant*
+	russell = arcadia sound engineer*
+	binaryjs = veloper*
+
+
+## Technology
+
+### Server
+	centralised server
+	check stream status
+	report if stream is down (email, reboot)
+### Audio
+	merge audio streams
+	output audio stream
+### MongoDB
+	store all sync'd positions as huge json file (time, intensity, algorithm)
+
+### App
+	location search
+	location registration
+	audio feed
+
+### Visual
+	visual representation of stream
+	zoom in/out using opengl render distance idea
+
+## Algorithm
+	allow the ability to change the underlying algorithm
+	simple javascript files could be created to tell the visual/audo representation how to act
+	files are scanned for errors
+	release github repository
+
+## Nodes
+	the design will be a simple horn that would disperse the sound quickly so as not to make much noise
+
+### Price Breakdown
+Each node will cost roughly £1000
+
+## Experience
+	invisible circus
+	art vanguard
+	industrial manchester
+	resonate belgrade
+
+## Future Developments
+	external attributes like temperature and moisture affect audio
+	long range proximity sensors
+
+
+
+# Client -> Server Relationship
+
+### client
+	follows server clock
+	receives sync'd audio from server
+	audio enters microphone
+	audio is manipulated
+	command line handles audio manipulation
+	audio is transcoded
+	audio is streamed to server via sockets
+	timestamp for audio sent to server with audio
+
+### server
+	recieves transcoded audio through socket
+	audio is syncronised
+	audio is transcoded
+	audio is streamed to socket
+
+# 4 beat process
+
+	Audio is encoded, streamed->server, decoded, merged, encoded, streamed->client
+
+### FFMPEG
+	ffmpeg receive
+	ffmpeg encode
+	ffmpeg stream
+	ffserver recieve stream
+	sync audio
+	ffserver stream sync'd audio
+	ffmpeg recieve stream
+	ffmpeg output stream to speakers
+
+# Audio Software
+### PureData
+### CSound
+
+	ensemble files can be created and alternated
+	`inputs` : clock, audio input, user positions
+	`outputs` : and audio output
