@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tq303/intraurban/issues"
   },
-  "homepage": "https://github.com/tq303/intraurban"
+  "homepage": "https://github.com/tq303/intraurban",
+  "dependencies": {
+    "port": "^0.8.1"
+  }
 }
