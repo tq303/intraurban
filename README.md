@@ -28,5 +28,7 @@ sudo subl /etc/security/limits.conf
 
 Append the following to the file
 
-	username    hard   memlock           unlimited
-	username    soft    memlock           unlimited
+	username    hard    memlock    unlimited
+	username    soft    memlock    unlimited
+
+## Install

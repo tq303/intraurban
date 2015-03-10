@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/tq303/intraurban",
   "dependencies": {
+    "colors": "^1.0.3",
     "port": "^0.8.1"
   }
 }

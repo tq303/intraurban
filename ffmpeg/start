@@ -1,1 +1,1 @@
-ffmpeg -f jack -i ffmpeg -y out.wav
+ffmpeg -f jack -i ffmpeg -y ./ffmpeg/out.wav

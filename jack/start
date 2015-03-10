@@ -1,1 +1,2 @@
 jack_connect pd_extended_0:output0 ffmpeg:input_1
+jack_connect pd_extended_0:output1 ffmpeg:input_2
