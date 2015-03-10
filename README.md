@@ -32,3 +32,8 @@ Append the following to the file
 	username    soft    memlock    unlimited
 
 ## Install
+
+```bash
+npm install
+nodemon
+```

@@ -18,6 +18,7 @@
 		ffmpeg,
 		jack;
 
+	// load all processes
 	puredata = spawn('./puredata/start');
 	puredata.loaded = false;
 	puredata.stdout.on('data', function (data) {console.log("stdout: puredata: ".yellow + data); });
@@ -37,7 +38,7 @@
 			ffmpeg.stderr.on('data', function (data) {
 			    if ((data.toString().indexOf('size=')) === 0 && !ffmpeg.loaded) {
 			    	ffmpeg.loaded = true;
-			    	
+
 			    	jack = spawn('./jack/start');
 					jack.loaded = false;
 					jack.stdout.on('data', function (data) {console.log("stdout: jack: ".yellow + data); });
@@ -50,29 +51,6 @@
 	    }
 	    
 	});
-
-	/* run all stop scripts */
-	// Q.all(applications.map(function (app) {
-
-	// 	var deferred = Q.defer();
-
-	// 	setImmediate(function () {
-	// 		exec('./' + app + '/stop', function (err, stdout, stderr) {
-	// 			return deferred.resolve(stdout, stderr);
-	// 		});
-	// 	});
-
-	// 	return deferred.promise;
-
-	// })).then(function (e) {
-
-	// 	console.log('stop scripts :'.yellow, e);
-
-	// 	// create/run all spawn applications
-		
-		
-	// });
-
 
 	console.log('intraurban. running...');
 
