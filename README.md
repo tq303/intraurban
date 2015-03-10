@@ -18,3 +18,15 @@ sudo apt-get install jack
 ```bash
 sudo apt-get install ffmpeg
 ```
+
+## Config
+
+You will need to add your user to the limits.conf.
+```bash
+sudo subl /etc/security/limits.conf
+```
+
+Append the following to the file
+
+	username    hard   memlock           unlimited
+	username    soft    memlock           unlimited
