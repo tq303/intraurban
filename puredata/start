@@ -1,1 +1,1 @@
-pd -stderr -jack -inchannels 2 -r 44100 -send ";\pd dsp 1;\complete" ./puredata/patch.pd
+pd -stderr -nogui -jack -inchannels 2 -r 44100 -send ";\pd dsp 1;\complete" ./puredata/patch.pd

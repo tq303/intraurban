@@ -1,3 +1,2 @@
-jack_disconnect pd_extended_0:output0 ffmpeg:input_1 &&
-killall jackdbus &&
-killall jackd
+killall jackd &&
+killall jackdbus
