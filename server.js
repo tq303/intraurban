@@ -13,44 +13,59 @@
 		Q	   = require('q');
 
 	/* child processes */
-	var	applications   = ['puredata', 'ffmpeg', 'jack'],
+	var	applications   = ['puredata', 'ffmpeg', 'ffserver', 'jack'],
 		puredata,
 		ffmpeg,
-		jack;
+		ffserver,
+		jack,
+		jack_ffmpeg_connect = null;
 
 	// load all processes
 	puredata = spawn('./puredata/start');
 	puredata.loaded = false;
-	puredata.stdout.on('data', function (data) {console.log("stdout: puredata: ".yellow + data); });
-	puredata.on('exit', function (code) {console.log("exit: puredata: code: ".cyan, code); });
 
-	puredata.stderr.on('data', function (data) {
+	puredata.stdout.on('data', function (data) {
+		if ((data.toString().indexOf('jackd')) === 0 && !puredata.loaded) {
 
-	    if ((data.toString().indexOf('error: complete')) === 0 && !puredata.loaded) {
-
-	    	puredata.loaded = true;
-
-	    	ffmpeg = spawn('./ffmpeg/start');
+			ffmpeg = spawn('./ffmpeg/start');
 			ffmpeg.loaded = false;
-			ffmpeg.stdout.on('data', function (data) {console.log("stdout: ffmpeg: ".yellow + data); });
-			ffmpeg.on('exit', function (code) {console.log("exit: ffmpeg: code: ".cyan, code); });
 
-			ffmpeg.stderr.on('data', function (data) {
-			    if ((data.toString().indexOf('size=')) === 0 && !ffmpeg.loaded) {
+			ffmpeg.stdout.on('data', function (data) {
+				if (!ffmpeg.loaded) {
 			    	ffmpeg.loaded = true;
 
-			    	jack = spawn('./jack/start');
-					jack.loaded = false;
-					jack.stdout.on('data', function (data) {console.log("stdout: jack: ".yellow + data); });
-					jack.on('exit', function (code) {console.log("exit: jack: code: ".cyan, code); });
-					jack.stderr.on('data', function (data) {});
+			    	console.log('streaming to ffmpeg'.blue);
 
+			    	jack = spawn('./jack/start');
+			    	jack.loaded = false;
+
+					jack.stdout.on('data', function (data) {
+						console.log("stdout: jack: ".yellow + data);
+						
+						if (jack_ffmpeg_connect === null) {
+							console.log('jack connected');
+							jack_ffmpeg_connect = spawn('./jack/connect');
+							jack_ffmpeg_connect.stdout.on('data', function (data) {console.log("stdout: jack_ffmpeg_connect: ".yellow + data); });
+							jack_ffmpeg_connect.on('exit', function (code) {console.log("exit: jack_ffmpeg_connect: code: ".cyan, code); });
+							jack_ffmpeg_connect.stderr.on('data', function (data) {console.log("stderr: jack_ffmpeg_connect: ".red, data.toString())});
+						}
+					});
+					jack.on('exit', function (code) {console.log("exit: jack: code: ".cyan, code); });
+					jack.stderr.on('data', function (data) {console.log("stderr: jack: ".red, data.toString())});
+
+					// ffserver = spawn('./ffserver/start');
+					// ffserver.loaded = false;
+					// ffserver.stdout.on('data', function (data) {console.log("stdout: ffserver: ".yellow + data); });
+					// ffserver.on('exit', function (code) {console.log("exit: ffserver: code: ".cyan, code); });
+					// ffserver.stderr.on('data', function (data) {"stderr: ffserver: ".red, data});
 			    }
 			});
-
-	    }
-	    
+			ffmpeg.on('exit', function (code) {console.log("exit: ffmpeg: code: ".cyan, code); });
+			ffmpeg.stderr.on('data', function (data) {});
+		}
 	});
+	puredata.on('exit', function (code) {console.log("exit: puredata: code: ".cyan, code); });
+	puredata.stderr.on('data', function (data) {});
 
 	console.log('intraurban. running...');
 

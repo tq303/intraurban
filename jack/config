@@ -1,2 +1,3 @@
+sudo apt-get install jackd2
 sudo dpkg-reconfigure -p high jackd2 &&
 sudo adduser oliver audio

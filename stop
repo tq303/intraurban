@@ -1,0 +1,4 @@
+./puredata/stop
+./ffmpeg/stop
+./ffserver/stop
+./jack/stop

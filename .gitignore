@@ -2,4 +2,5 @@ README.html
 plan/
 sublime/
 ffmpeg/out.wav
+ffserver/ffserver.log
 node_modules/
