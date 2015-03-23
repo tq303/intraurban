@@ -8,64 +8,77 @@
 
 	/* require */
 	var spawn  = require('child_process').spawn,
-		exec   = require('child_process').exec,
+		exec  = require('child_process').exec,
 		colors = require('colors'),
 		Q	   = require('q');
 
-	/* child processes */
-	var	applications   = ['puredata', 'ffmpeg', 'ffserver', 'jack'],
-		puredata,
-		ffmpeg,
-		ffserver,
-		jack,
-		jack_ffmpeg_connect = null;
+	var ps = function (script, name, show_err) {
 
-	// load all processes
-	puredata = spawn('./puredata/start');
-	puredata.loaded = false;
+		if (typeof script === 'undefined')
+			throw Error('command must be present for "ps"');
+		else
+			this.script = script;
 
-	puredata.stdout.on('data', function (data) {
-		if ((data.toString().indexOf('jackd')) === 0 && !puredata.loaded) {
+		if (typeof name === 'undefined')
+			this.name = 'unknown script name';
+		else
+			this.name = name;
 
-			ffmpeg = spawn('./ffmpeg/start');
-			ffmpeg.loaded = false;
+		if (typeof show_err === 'undefined')
+			this.show_err = false;
+		else
+			this.show_err = show_err;
+	};
 
-			ffmpeg.stdout.on('data', function (data) {
-				if (!ffmpeg.loaded) {
-			    	ffmpeg.loaded = true;
+	ps.prototype.run = function () {
+		var deferred = Q.defer();
 
-			    	console.log('streaming to ffmpeg'.blue);
+		this.process = spawn(this.script);
+    	
+    	console.log('spawn : ' + this.name + ' : started'.blue);
 
-			    	jack = spawn('./jack/start');
-			    	jack.loaded = false;
-
-					jack.stdout.on('data', function (data) {
-						console.log("stdout: jack: ".yellow + data);
-						
-						if (jack_ffmpeg_connect === null) {
-							console.log('jack connected');
-							jack_ffmpeg_connect = spawn('./jack/connect');
-							jack_ffmpeg_connect.stdout.on('data', function (data) {console.log("stdout: jack_ffmpeg_connect: ".yellow + data); });
-							jack_ffmpeg_connect.on('exit', function (code) {console.log("exit: jack_ffmpeg_connect: code: ".cyan, code); });
-							jack_ffmpeg_connect.stderr.on('data', function (data) {console.log("stderr: jack_ffmpeg_connect: ".red, data.toString())});
-						}
-					});
-					jack.on('exit', function (code) {console.log("exit: jack: code: ".cyan, code); });
-					jack.stderr.on('data', function (data) {console.log("stderr: jack: ".red, data.toString())});
-
-					// ffserver = spawn('./ffserver/start');
-					// ffserver.loaded = false;
-					// ffserver.stdout.on('data', function (data) {console.log("stdout: ffserver: ".yellow + data); });
-					// ffserver.on('exit', function (code) {console.log("exit: ffserver: code: ".cyan, code); });
-					// ffserver.stderr.on('data', function (data) {"stderr: ffserver: ".red, data});
-			    }
-			});
-			ffmpeg.on('exit', function (code) {console.log("exit: ffmpeg: code: ".cyan, code); });
-			ffmpeg.stderr.on('data', function (data) {});
+		this.process.stdout.on('data', function (data) {
+			console.log("stdout: " + this.name + ": ".yellow + data);
+		}.bind(this));
+		if (this.show_err) {
+			this.process.on('exit', function (code) {console.log("exit: " + this.name + " code: ".cyan, code); }.bind(this));
+			this.process.stderr.on('data', function (data) {deferred.resolve(); console.log("stderr: " + this.name + " ".red, data.toString())}.bind(this));
 		}
-	});
-	puredata.on('exit', function (code) {console.log("exit: puredata: code: ".cyan, code); });
-	puredata.stderr.on('data', function (data) {});
+
+		return deferred.promise;
+	};
+
+	ps.prototype.exit = function () {
+		var deferred = Q.defer(),
+			_name = this.name;
+
+    	console.log('process : ' + this.name + ' : started'.blue);
+
+		this.process = exec(this.script, function (error, stdout, stderr) {
+			console.log("exit: " + _name + "".cyan);
+			deferred.resolve();
+		});		
+
+		return deferred.promise;
+	};
+
+	/* child processes */
+	var	clear_ps = new ps('./stop', 'clear_ps'),
+		puredata = new ps('./puredata/start', 'puredata'),
+		ffmpeg = new ps('./ffmpeg/start', 'ffmpeg', true),
+		ffserver = new ps('./ffserver/start', 'ffserver'),
+		jack = new ps('./jack/start', 'jack'),
+		jack_ffmpeg_connect = new ps('./jack/connect', 'jack -> ffmpeg', true);
+
+	clear_ps.exit()
+		.then(jack.run())
+		.then(puredata.run())
+		.then(ffmpeg.run())
+		.then(function () {
+			setTimeout(function () {
+				jack_ffmpeg_connect.run();
+			}, 1500);
+		});
 
 	console.log('intraurban. running...');
 

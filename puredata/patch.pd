@@ -1,4 +1,4 @@
-#N canvas 718 195 450 300 10;
+#N canvas 716 194 450 300 10;
 #X obj 92 22 adc~;
 #X obj 94 71 delwrite~ delayname 500;
 #X obj 95 157 delread~ delayname 150;
