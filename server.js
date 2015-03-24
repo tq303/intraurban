@@ -39,10 +39,11 @@
 
 		this.process.stdout.on('data', function (data) {
 			console.log("stdout: " + this.name + ": ".yellow + data);
+			deferred.resolve();
 		}.bind(this));
 		if (this.show_err) {
 			this.process.on('exit', function (code) {console.log("exit: " + this.name + " code: ".cyan, code); }.bind(this));
-			this.process.stderr.on('data', function (data) {deferred.resolve(); console.log("stderr: " + this.name + " ".red, data.toString())}.bind(this));
+			this.process.stderr.on('data', function (data) {console.log("stderr: " + this.name + " ".red, data.toString())}.bind(this));
 		}
 
 		return deferred.promise;
@@ -71,6 +72,7 @@
 		jack_ffmpeg_connect = new ps('./jack/connect', 'jack -> ffmpeg', true);
 
 	clear_ps.exit()
+		.then(ffserver.run())
 		.then(jack.run())
 		.then(puredata.run())
 		.then(ffmpeg.run())
@@ -78,7 +80,8 @@
 			setTimeout(function () {
 				jack_ffmpeg_connect.run();
 			}, 1500);
-		});
+		})
+		;
 
 	console.log('intraurban. running...');
 

@@ -1,4 +1,21 @@
-./puredata/stop
-./ffmpeg/stop
-./ffserver/stop
-./jack/stop
+#!/bin/bash
+#
+#kill ffmpeg
+echo killing old ffmpegs
+
+PID=( $(ps -e | grep ffmpeg | awk '{print $1;}'))
+if [ $? = 1 ];then
+echo "error getting ffmpeg PID, exiting"
+exit
+fi
+if [ ! -n "$PID" ];then
+PID=1234567
+fi
+echo killing ffmpeg with PID $PID
+kill $PID
+
+#kill pd
+echo killing old pd
+killall pd
+
+exit

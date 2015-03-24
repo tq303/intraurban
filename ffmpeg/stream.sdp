@@ -1,0 +1,11 @@
+SDP:
+v=0
+o=- 0 0 IN IP4 127.0.0.1
+s=No Name
+c=IN IP4 127.0.0.1
+t=0 0
+a=tool:libavformat 56.25.101
+m=audio 1234 RTP/AVP 97
+b=AS:705
+a=rtpmap:97 PCMU/44100/2
+

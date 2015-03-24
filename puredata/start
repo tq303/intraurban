@@ -1,1 +1,21 @@
-pd -stderr -jack -inchannels 2 -r 44100 -send ";\pd dsp 1" ./puredata/patch.pd
+#!/bin/bash
+echo killing old pd
+
+PID=( $(ps -e | grep pd | awk '{print $1;}'))
+if [ $? = 1 ];then
+echo "error getting pd PID, exiting"
+exit
+fi
+if [ ! -n "$PID" ];then
+PID=1234567
+fi
+echo killing pd with PID $PID
+kill $PID
+
+echo starting pd
+pd -jack -inchannels 2 -r 44100 -send ";\pd dsp 1" ./puredata/patch.pd
+
+FF=$!
+echo puredata started with PID $FF
+
+exit
