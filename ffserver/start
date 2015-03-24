@@ -1,1 +1,0 @@
-ffserver -f ./ffserver/ffserver.conf &

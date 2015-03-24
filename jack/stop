@@ -1,2 +1,0 @@
-killall jackd &&
-killall jackdbus
