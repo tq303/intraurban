@@ -64,15 +64,12 @@
 	};
 
 	/* child processes */
-	var	clear_ps = new ps('./stop', 'clear_ps'),
-		puredata = new ps('./puredata/start', 'puredata'),
+	var	clear_ps = new ps('./stop', 'clear_ps', true),
 		ffmpeg = new ps('./ffmpeg/start', 'ffmpeg', true),
-		ffserver = new ps('./ffserver/start', 'ffserver'),
-		jack = new ps('./jack/start', 'jack'),
-		jack_ffmpeg_connect = new ps('./jack/connect', 'jack -> ffmpeg', true);
+		puredata = new ps('./puredata/start', 'puredata', true),
+		jack = new ps('./jack/connect', 'jack', true);
 
 	clear_ps.exit()
-		.then(ffserver.run())
 		.then(jack.run())
 		.then(puredata.run())
 		.then(ffmpeg.run())

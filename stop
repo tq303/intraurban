@@ -18,4 +18,8 @@ kill $PID
 echo killing old pd
 killall pd
 
+#kill jack
+echo killing old jack
+killall jackd
+
 exit
