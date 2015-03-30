@@ -70,13 +70,11 @@
 		jack = new ps('./jack/connect', 'jack', true);
 
 	clear_ps.exit()
+		.then(ffmpeg.run())
 		.then(jack.run())
 		.then(puredata.run())
-		.then(ffmpeg.run())
 		.then(function () {
-			setTimeout(function () {
-				jack_ffmpeg_connect.run();
-			}, 1500);
+			console.log('all processes are running');
 		})
 		;
 
