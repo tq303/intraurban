@@ -4,26 +4,18 @@
 
 All commands assume you are using Ubuntu 14.04.
 
-### PureData
+### Pre-configuration
 ```bash
-sudo apt-get install puredata
+Before running configuration, please edit the username in ./jack/config
 ```
-
-### Jack
+### Configuration
 ```bash
-sudo apt-get install jack
+./config
 ```
-
-### ffmpeg
-```bash
-sudo apt-get install ffmpeg
-```
-
-## Config
-
+## Post-Configuration
 You will need to add your user to the limits.conf.
 ```bash
-sudo subl /etc/security/limits.conf
+sudo nano /etc/security/limits.conf
 ```
 
 Append the following to the file
@@ -35,5 +27,4 @@ Append the following to the file
 
 ```bash
 npm install
-nodemon
 ```
