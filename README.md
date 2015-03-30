@@ -22,9 +22,3 @@ Append the following to the file
 
 	username    hard    memlock    unlimited
 	username    soft    memlock    unlimited
-
-## Install
-
-```bash
-npm install
-```
