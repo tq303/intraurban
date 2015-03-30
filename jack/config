@@ -2,9 +2,9 @@
 
 echo "installing jack"
 
-user="username"
+user="oliver"
 
-sudo apt-get install jackd2
+sudo apt-get -y install jackd2
 sudo dpkg-reconfigure -p high jackd2 &&
 sudo adduser $user audio
 

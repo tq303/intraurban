@@ -2,7 +2,7 @@
 
 echo "installing ffmpeg"
 echo "installing ffmpeg -> libraries"
-sudo apt-get install libjack0 libjack-dev libsdl1.2-dev yasm
+sudo apt-get install -y libjack0 libjack-dev libsdl1.2-dev yasm
 echo "retrieving from github"
 git clone git@github.com:FFmpeg/FFmpeg.git
 cd FFmpeg/

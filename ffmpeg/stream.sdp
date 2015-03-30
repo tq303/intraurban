@@ -1,11 +1,26 @@
-jackd 0.122.0
-Copyright 2001-2009 Paul Davis, Stephane Letz, Jack O'Quinn, Torben Hohn and others.
-jackd comes with ABSOLUTELY NO WARRANTY
+jackdmp 1.9.10
+Copyright 2001-2005 Paul Davis and others.
+Copyright 2004-2013 Grame.
+jackdmp comes with ABSOLUTELY NO WARRANTY
 This is free software, and you are welcome to redistribute it
 under certain conditions; see the file COPYING for details
-
-JACK compiled with System V SHM support.
-loading driver ..
-apparent rate = 44100
+JACK server starting in realtime mode with priority 10
+audio_reservation_init
+Acquire audio card Audio0
 creating alsa driver ... hw:0|hw:0|1024|2|44100|0|0|nomon|swmeter|-|32bit
-control device hw:0
+configuring for 44100Hz, period = 1024 frames (23.2 ms), buffer = 2 periods
+ALSA: final selected sample format for capture: 32bit integer little-endian
+ALSA: use 2 periods for capture
+ALSA: final selected sample format for playback: 32bit integer little-endian
+ALSA: use 2 periods for playback
+SDP:
+v=0
+o=- 0 0 IN IP4 127.0.0.1
+s=No Name
+c=IN IP4 127.0.0.1
+t=0 0
+a=tool:libavformat 56.26.101
+m=audio 1234 RTP/AVP 97
+b=AS:705
+a=rtpmap:97 PCMU/44100/2
+
