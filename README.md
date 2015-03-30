@@ -2,17 +2,17 @@
 
 ## Requirements
 
-All commands assume you are using Ubuntu 14.04.
+All commands assume you are using Ubuntu 14.04, though most Debian based Linux distributions will work.
 
-### Pre-configuration
+### Pre-Installation
 ```bash
-Before running configuration, please edit the username in ./jack/config
+Before running Installation, please edit the username in ./jack/config
 ```
-### Configuration
+### Installation
 ```bash
 ./config
 ```
-## Post-Configuration
+## Post-Installation
 You will need to add your user to the limits.conf.
 ```bash
 sudo nano /etc/security/limits.conf
