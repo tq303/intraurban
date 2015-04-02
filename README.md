@@ -22,3 +22,9 @@ Append the following to the file
 
 	username    hard    memlock    unlimited
 	username    soft    memlock    unlimited
+
+### Run Server
+```bash
+forever stop ./server.js
+forever start ./server.js
+```
