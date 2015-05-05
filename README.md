@@ -1,5 +1,7 @@
 # intraurban
 
+Network streaming, syncronised music collaboration.
+
 ## Requirements
 
 All commands assume you are using Ubuntu 14.04, though most Debian based Linux distributions will work.
